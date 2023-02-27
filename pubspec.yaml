@@ -1,0 +1,35 @@
+name: coffi
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  iconsax: ^0.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Euclid
+      fonts:
+        - asset: fonts/Euclid-Circular-B-Bold.ttf
+        - asset: fonts/Euclid-Circular-B-Light.ttf
+        - asset: fonts/Euclid-Circular-B-Medium.ttf
+        - asset: fonts/Euclid-Circular-B-Regular.ttf
+        - asset: fonts/Euclid-Circular-B-SemiBold.ttf
